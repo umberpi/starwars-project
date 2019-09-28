@@ -1,0 +1,33 @@
+// _banner.scss
+.home-banner {
+  background-image: url('background.png');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+#banner-typed-text {
+  margin: 0;
+  padding: 0;
+  font-size: 6.4rem;
+  color: #FEE300;
+  text-align: center;
+}
+
+.home-banner h2{
+  padding: 0;
+  font-size: 3.6rem;
+  color: #FEE300;
+  text-align: center;
+}
+
+.home-banner p{
+  padding: 0;
+  font-size: 2.4rem;
+  color: #FEE300;
+  text-align: left;
+}

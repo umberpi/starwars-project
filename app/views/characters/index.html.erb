@@ -1,0 +1,14 @@
+
+<div class="home-banner">
+  <h2>Pick a number and discover who is behind it!</h2>
+
+  <div id="sw-container">
+      <% @characters.each do |character| %>
+        <div class="character-card">
+            <h3>
+              <%= link_to character.id, character %>
+            </h3>
+        </div>
+        <% end %>
+  </div>
+</div>

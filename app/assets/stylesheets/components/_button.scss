@@ -1,0 +1,23 @@
+// _button.scss
+
+.btn-main-yellow {
+  color: black;
+  background-color: $yellow;
+  border-radius: .5rem;
+  margin-top: 5rem;
+  padding: 2rem;
+  font-size: 2.2rem;
+  text-decoration: none;
+  opacity: .9;
+
+}
+
+.btn-main-yellow:hover {
+  opacity: 1;
+  transition: background 0.5s ease;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
