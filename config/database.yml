@@ -7,7 +7,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: starwars-project
+  database: starwars-project_development
   pool: 5
   username: umbertopisano
   password:
@@ -21,7 +21,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: starwars-project
+  database: starwars-project_test
   pool: 5
   username: umbertopisano
   password:
@@ -30,7 +30,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: starwars-project
+  database: starwars-project_production
   pool: 5
   username: umbertopisano
   password:
