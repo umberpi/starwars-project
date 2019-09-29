@@ -2,7 +2,7 @@
 .home-banner {
   background-image: url('https://res.cloudinary.com/upupup/image/upload/v1569740427/background-sw.png');
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
